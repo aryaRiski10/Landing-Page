@@ -19,13 +19,13 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar {
+/* .navbar {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 2;
-}
+} */
 
 .navbar-brand {
   font-size: 30px;
@@ -549,25 +549,6 @@ li {
 
 /* Responsive */
 @media (max-width: 890px) {
-  .body {
-    width: 100%;
-  }
-  .navbar {
-    right: 71%;
-  }
-  .navbar-brand {
-    font-size: 20px;
-  }
-  .navbar-toggler {
-    padding: 0.2rem 0.5rem;
-    width: max-content;
-  }
-  .navbar-toggler-icon {
-    width: 20px;
-  }
-  .header {
-    width: 115.8%;
-  }
 }
 
 @media (min-width: 768px) {

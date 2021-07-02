@@ -27,5 +27,12 @@ function continueShop() {
 
 function cartRemove() {
   const cart_item = document.getElementById('cart_items');
+  const no_cart_item = document.getElementById('no_item');
+  const order_total = document.getElementById('order_total');
+  const cart_button_checkout = document.getElementById('cart_button_checkout');
+
   cart_item.style.display = 'none';
+  order_total.style.display = 'none';
+  cart_button_checkout.style.display = 'none';
+  no_cart_item.style.display = 'block';
 }
